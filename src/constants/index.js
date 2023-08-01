@@ -159,7 +159,7 @@ const experiences = [
   },
   {
     title: "QA Engineer (Contractor)",
-    company_name: "United Utilities ",
+    company_name: "UNITED UTILITIES",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Dec 2022",
