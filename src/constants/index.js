@@ -18,9 +18,9 @@ import {
   baker,
   mechan,
   uu,
-  carrent,
-  jobit,
-  tripguide,
+  BackendNC,
+  FrontendNC,
+  Portfolio,
   threejs,
 } from "../assets";
 
@@ -208,7 +208,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: BackendNC,
     source_code_link: "https://github.com/moes93/mohamed-nc-games",
   },
   {
@@ -229,7 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: FrontendNC,
     source_code_link: "https://github.com/moes93/fe-nc-game",
   },
   {
@@ -250,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Portfolio,
     source_code_link: "https://github.com/",
   },
 ];

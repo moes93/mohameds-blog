@@ -26,9 +26,9 @@ import baker from "./company/BAKER-HUGHES.jpeg";
 import mechan from "./company/MECHAN-CONTROLS-PLC.png";
 import uu from "./company/UNITED-UTILITIES.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import BackendNC from "./BackendNC.png";
+import FrontendNC from "./FrontendNC.png";
+import Portfolio from "./Portfolio.png";
 
 export {
   logo,
@@ -56,8 +56,8 @@ export {
   baker,
   mechan,
   uu,
-  carrent,
-  jobit,
-  tripguide,
+  BackendNC,
+  FrontendNC,
+  Portfolio,
 };
 
