@@ -191,30 +191,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Back End REST API",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jest & supertest",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/moes93/mohamed-nc-games",
   },
   {
-    name: "Job IT",
+    name: "Northcoders Games",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "NC Games is a vibrant platform where content rating and lively discussions converge around social board games. The site boasts an array of categorized game reviews, each featuring user-curated ratings and the option for upvotes or downvotes via the API. Users can also actively engage by leaving comments on reviews, with the flexibility to delete them. Additionally, the community is encouraged to contribute their own reviews, enriching the platform with diverse insights and viewpoints.",
     tags: [
       {
         name: "react",
@@ -225,28 +225,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/moes93/fe-nc-game",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to my personal portfolio website! This repository hosts the code and content for my online portfolio, where I showcase my projects, skills, and experiences.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
