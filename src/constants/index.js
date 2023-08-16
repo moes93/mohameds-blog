@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  BackendNC,
+  FrontendNC,
+  Portfolio,
   threejs,
 } from "../assets";
 
@@ -199,30 +199,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Back End REST API",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I've developed a backend service that serves as a hub for Games, delivering data and details to the frontend structure. This application can be interacted with programmatically, allowing clients/users to retrieve, submit, modify, and remove data.",
     tags: [
       {
-        name: "react",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jest & supertest",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: BackendNC,
+    source_code_link: "https://github.com/moes93/mohamed-nc-games",
   },
   {
-    name: "Job IT",
+    name: "Northcoders Games",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "NC Games is a dedicated platform that combines content rating and interactive discussions for social board games. This website offers an array of game reviews meticulously organized into distinct categories. Navigating through these reviews is effortless thanks to efficient sorting, categorization, and pagination features. The platform encourages user engagement by facilitating curated ratings, allowing the community to cast votes in favor or against content using the accessible API. Additionally, users possess the capacity to share their perspectives by posting comments on existing reviews, with the option to remove them if desired. Furthermore, individuals are warmly encouraged to contribute their unique reviews, thus enhancing the platform's diversity of viewpoints.",
     tags: [
       {
         name: "react",
@@ -233,33 +233,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: FrontendNC,
+    source_code_link: "https://github.com/moes93/fe-nc-game",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio site",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to my personal portfolio website! This repository hosts the code and content for my online portfolio, where I showcase my projects, skills, and experiences.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Portfolio,
+    source_code_link: "https://github.com/moes93/mohameds-blog",
   },
 ];
 
