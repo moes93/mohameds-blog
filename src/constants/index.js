@@ -14,14 +14,14 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  TCS,
+  baker,
+  mechan,
+  uu,
   BackendNC,
   FrontendNC,
   Portfolio,
+
   threejs,
 } from "../assets";
 
@@ -52,10 +52,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -108,18 +104,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "Graduate Systems Engineer",
     company_name: "TATA CONSULTANCY SERVICES",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: TCS,
+    iconBg: "#000000",
     date: "April 2017 - Jun 2019",
     points: [
       "Worked directly from the client’s office (United Utilities) alongside the BAU team.",
@@ -134,8 +126,8 @@ const experiences = [
   {
     title: "Lead Systems Engineer (Contractor)",
     company_name: "BAKER HUGHES",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: baker,
+    iconBg: "#05322D",
     date: "Feb 2020 - Jun 2020",
     points: [
       "Successfully delivered project requirements to engineer a new a Baker Hughes Aptara XTree into an existing field.",
@@ -147,7 +139,7 @@ const experiences = [
   {
     title: "Assistant Project Manager ",
     company_name: "MECHAN CONTROLS PLC ",
-    icon: shopify,
+    icon: mechan,
     iconBg: "#383E56",
     date: "Aug 2020 - Feb 2022",
     points: [
@@ -160,8 +152,8 @@ const experiences = [
   {
     title: "QA Engineer (Contractor)",
     company_name: "UNITED UTILITIES",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: uu,
+    iconBg: "#024E44",
     date: "Aug 2022 - Dec 2022",
     points: [
 "Assist with identification and addressing commissioning and malfunction issues.",
